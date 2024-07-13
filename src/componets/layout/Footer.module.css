@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    justify-content: center;
+   
+  
+}
+
+.social_list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0 1em;
+}
+
+.social_list:hover {
+    color: #d7d3d3;
+}
+
+/* .copy_right {
+    margin-top: 12em;
+}
+
+.copy_right span {
+    font-weight: bold;
+} */
