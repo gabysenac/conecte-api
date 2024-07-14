@@ -5,10 +5,10 @@ import InputL from '../FormL/Input'
 import Submit from '../FormC/Submit'
 
 function LoginForm() {
-const [login, criar] = useState ([])
+const [loginusuario, criarusuario] = useState ([])
        
 useState (() => {
-        fetch("http://localhost:5000/login",{
+        fetch("http://localhost:5000/categories",{
                 method: "GET",
                 headers: {
                     'content-Type':'aplication/json'
